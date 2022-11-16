@@ -6,8 +6,11 @@ authors = ["rcskinner <ryan.skinner@datadoghq.com>"]
 
 [tool.poetry.dependencies]
 python = "^3.10"
+kfp = "^1.8.14"
+pandas = "^1.5.1"
 
 [tool.poetry.dev-dependencies]
+ipykernel = "^6.17.1"
 
 [build-system]
 requires = ["poetry-core>=1.0.0"]
